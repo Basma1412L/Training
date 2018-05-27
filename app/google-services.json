@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1013404202256",
+    "firebase_url": "https://training-f0386.firebaseio.com",
+    "project_id": "training-f0386",
+    "storage_bucket": "training-f0386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013404202256:android:b7bab843c037390a",
+        "android_client_info": {
+          "package_name": "com.example.basma.training"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013404202256-ltcbh4e39h8hnhvvd7pun54mosh5d676.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basma.training",
+            "certificate_hash": "0639f2fcf63811c9950ad2709a5759f7176ce31b"
+          }
+        },
+        {
+          "client_id": "1013404202256-dk4o7bmohopnhnoaup9hfsspc5t6ag12.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1013404202256-dk4o7bmohopnhnoaup9hfsspc5t6ag12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzN-pi3qLh5npby8a3-S7kW-kR7hYdIGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013404202256-dk4o7bmohopnhnoaup9hfsspc5t6ag12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
