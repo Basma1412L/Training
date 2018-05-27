@@ -7,7 +7,9 @@
         android:required="true" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
     <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
@@ -47,17 +49,36 @@
 
         <activity android:name=".DatabaseActivity" />
         <activity android:name=".SpeechActivity" />
-        <activity android:name=".SensorsActivity"></activity>
-        <activity android:name=".AlarmActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SensorsActivity" />
+        <activity android:name=".AlarmActivity" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <receiver android:name=".MyBroadcastReceiver" />
+
+        <activity android:name=".FirebaseActivity" />
+        <activity android:name=".RestFirebase" />
+        <activity android:name=".Animations" />
+        <activity android:name=".SignSensor" />
+        <activity android:name=".ViewsActivity" />
+        <activity
+            android:name=".SensorAnimation"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".ChoicesActivity" />
+        <activity
+            android:name=".FirebaseSensorAnimation"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".SensorsAnimation">
         </activity>
-
-        <receiver android:name=".MyBroadcastReceiver"></receiver>
-
+        <activity android:name=".Speech1Activity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Main3Activity">
+        </activity>
     </application>
 
 </manifest>
