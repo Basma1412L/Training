@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:layout_marginTop="95dp"
         android:ems="10"
         android:hint="Enter your text here"
         android:inputType="textPersonName" />
@@ -48,10 +49,10 @@
         android:id="@+id/speckBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
-        android:text="Say It!"
         android:enabled="false"
-        android:layout_gravity="center_horizontal"/>
+        android:text="Say It!" />
 
     <Button
         android:id="@+id/go_btn"

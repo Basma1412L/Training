@@ -69,16 +69,18 @@
         <activity
             android:name=".FirebaseSensorAnimation"
             android:configChanges="orientation|screenSize" />
-        <activity android:name=".SensorsAnimation">
-        </activity>
-        <activity android:name=".Speech1Activity">
+        <activity android:name=".SensorsAnimation"></activity>
+        <activity android:name=".Speech1Activity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".Main3Activity">
-        </activity>
+        <activity android:name=".Main3Activity"></activity>
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

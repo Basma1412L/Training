@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class Speech1Activity extends AppCompatActivity {
+public class Speech1Activity extends DrawerActivity {
 
     private TextToSpeech mtts;
     EditText textEntered;
